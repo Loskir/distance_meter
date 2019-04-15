@@ -32,7 +32,7 @@ Then
 This is the target function that we need to minimize, where `x` is the only variable, as of `x1` and `y1` are known
 
 In the code `f(x)` is injected to the `d(x)` in the direct way:\
-```distanceFormulaText = `sqrt(pow(x1-x, 2)+pow(y1-(${formula.toString()}) , 2))```
+```distanceFormulaText = `sqrt(pow(x1-x, 2)+pow(y1-(${formula.toString()}) , 2))` ```
 
 To perform gradient descent we need a derivative of this function (by `x`)\
 `const deriv = math.derivative(distanceFormulaText, 'x')`

@@ -12,7 +12,8 @@ Uses [math.js](https://mathjs.org) and gradient descent algorithm.
 - Green – smallest distance path
 
 Position of mouse = position of the starting point.\
-Gradient descent starts after 500ms of inactivity.
+Gradient descent starts after 500ms of inactivity.\
+Found minimal distance is displayed at the bottom.
 
 ## How it works
 
@@ -28,7 +29,7 @@ Then
 
 ![Distance formula](./img/distance2.png)
 
-This is the target function that we need to minimize, where x is the only variable, as of `x1` and `y1` are known
+This is the target function that we need to minimize, where `x` is the only variable, as of `x1` and `y1` are known
 
 In the code `f(x)` is injected to the `d(x)` in the direct way:\
 ```distanceFormulaText = `sqrt(pow(x1-x, 2)+pow(y1-(${formula.toString()}) , 2))```

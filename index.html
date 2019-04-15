@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Distance meter</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://unpkg.com/mathjs@5.9.0/dist/math.min.js"></script>
+  <script module src="equation.min.js"></script>
+</head>
+<body>
+<svg viewBox="0 0 500 500" id="svg">
+  <polyline id="distance-graph" points="" class="dg"></polyline>
+  <circle r="3" id="circle" class="point"></circle>
+  <polyline id="distance" points="" class="distance"></polyline>
+  <polyline id="function" points="" class="function"></polyline>
+</svg>
+<div class="row">
+  <label><input type="text" id="text" name="formula" value="x"></label>
+  <button id="apply">Apply</button>
+</div>
+<span id="distance-text"></span>
+<script src="main.js"></script>
+</body>
+</html>

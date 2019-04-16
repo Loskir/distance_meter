@@ -7,9 +7,11 @@
   <script src="https://unpkg.com/mathjs@5.9.0/dist/math.min.js"></script>
 </head>
 <body>
-<svg viewBox="0 0 500 500" id="svg">
+<svg viewBox="-10 -10 20 20" id="svg">
+  <line x1="0" y1="-10" x2="0" y2="10" class="axis"></line>
+  <line x1="-10" y1="0" x2="10" y2="0" class="axis"></line>
   <polyline id="distance-graph" points="" class="dg"></polyline>
-  <circle r="3" id="circle" class="point"></circle>
+  <circle r=".2" id="circle" class="point"></circle>
   <polyline id="distance" points="" class="distance"></polyline>
   <polyline id="function" points="" class="function"></polyline>
 </svg>

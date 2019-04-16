@@ -24,15 +24,19 @@ polyline {
 }
 .function {
   stroke: dodgerblue;
-  stroke-width: 2;
+  stroke-width: .1;
 }
 .distance {
   stroke: forestgreen;
-  stroke-width: 3;
+  stroke-width: .15;
 }
 .dg {
   stroke: black;
-  stroke-width: 0.75;
+  stroke-width: 0.05;
+}
+.axis {
+  stroke: rgba(0,0,0,.75);
+  stroke-width: .05;
 }
 .point {
   fill: red;
